@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CakeSpree | Homemade Waffles & Pancakes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>CakeSpree</h1>
+        <p>Homemade Waffles & Pancakes</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to CakeSpree</h2>
+        <p>
+            CakeSpree is a homemade food venture offering freshly prepared waffles
+            and pancakes made with quality ingredients. Our goal is to provide
+            delicious treats with great taste and hygiene.
+        </p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>What We Serve</h2>
+
+        <div class="menu-item">
+            <h3>Chocolate Waffle</h3>
+            <p>Fresh waffle topped with rich chocolate sauce</p>
+            <p class="price">₹120</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Strawberry Pancake</h3>
+            <p>Soft pancakes served with strawberry syrup</p>
+            <p class="price">₹110</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Classic Pancake</h3>
+            <p>Simple and fluffy pancakes with honey</p>
+            <p class="price">₹100</p>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <h2>Customer Feedback</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Order Item:</label>
+            <select>
+                <option>Chocolate Waffle</option>
+                <option>Strawberry Pancake</option>
+                <option>Classic Pancake</option>
+            </select>
+
+            <label>Rating:</label>
+            <select>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+            </select>
+
+            <label>Comments:</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 CakeSpree | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
